@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000
 
 app.use('/products', productsRoutes)
 
-app.get('*', (req, res) => res.status(200).send({message: "Hello World"}))
+app.get('*', (req, res) => res.status(200).send({message: "Burguer-queen-api"}))
 
 app.listen(port, () => {
    console.log(`Server is running on PORT ${port}`)

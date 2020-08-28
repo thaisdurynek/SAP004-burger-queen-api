@@ -11,7 +11,7 @@ module.exports = {
       productsid: {
         allowNull: false,
         type: Sequelize.INTEGER,
-        references: {model:'Menus', key:'id'}
+        references: {model:'Products', key:'id'}
       },
       orderid: {
         allowNull: false,
